@@ -5,3 +5,7 @@ inputs:
     description: "El nombre del usuario a saludar"
     required: true
     default: "Mundo"
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
