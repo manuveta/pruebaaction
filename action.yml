@@ -1,0 +1,7 @@
+name: "pruebaaction"
+description: "Una acción de GitHub que saluda a un usuario"
+inputs:
+  name:
+    description: "El nombre del usuario a saludar"
+    required: true
+    default: "Mundo"
