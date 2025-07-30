@@ -5,6 +5,9 @@ inputs:
     description: "El nombre del usuario a saludar"
     required: true
     default: "Mundo"
+  nombreentorno:
+    description: "El nombre del entorno de ejecución"
+    required: true
 
 runs:
   using: 'node20'

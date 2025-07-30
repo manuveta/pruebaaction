@@ -27558,7 +27558,9 @@ var __webpack_exports__ = {};
 const core= __nccwpck_require__(7484);
 try {
   const name = core.getInput('name');
+  const nombreentorno = core.getInput('nombreentorno');
   console.log(`Hola ${name}!`);
+  console.log(`Estas en el entorno ${nombreentorno}!`);
 } catch (error) {
   core.setFailed(error.message);
 }
